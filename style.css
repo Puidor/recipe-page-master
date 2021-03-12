@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+header h1 {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+
+  margin-top: 5rem;
+}
+header .header-img {
+  width: 100%;
+}
+
+.header-text {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+
+  margin-top: 1.2rem;
+  margin-bottom: 1.7rem;
+}
+
+.header-text span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+
+  color: #4f4f4f;
+
+  padding: 0;
+}
+
+.header-text img {
+  margin-right: 0.5rem;
+}
